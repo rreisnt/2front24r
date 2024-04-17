@@ -1,0 +1,101 @@
+body {
+    background-color: #ccc;
+}
+
+p {
+    text-align: center;
+}
+#nomeBarbearia{
+    font-family: "poppins", sans-serif;
+}
+em {
+    color: red;
+}
+
+#textMaior {
+    font-family: "tilt neon", sans-serif;
+    font-size: 35px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#banner {
+    width: 100%;
+    border-radius: 35px;
+}
+
+.itens {
+    font-family: "montserrat", sans-serif;
+    font-style: italic;
+    font-size: 23px;
+    display: inline-block;
+    width: 29%;
+    margin-right: 15%;
+    vertical-align: 80px;
+    border-radius: 35px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(80, 79, 79);
+    border-radius: 35px;
+}
+.rodape a{
+    display: flex;
+    align-items: center;
+}
+
+.rodape{
+    margin-left: 33%;
+    font-family: "poppins", sans-serif;
+    list-style-type: none;
+    font-size: 23px;
+    display: flex;
+    width: 100%;
+    vertical-align: 65px;
+    border-radius: 35px;
+}
+.rodape li{
+    display: inline;
+    margin-right: 2%;
+}
+.rodape a {
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.rodape a:hover{
+    transform: translateY(-5px);
+    color: red;
+}
+
+.imagemBeneficios {
+    width: 50%;
+    border-radius: 35px;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(82, 82, 82);
+    padding: 20px;
+    border-radius: 35px;
+}
+
+header ul a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.beneficios {
+    font-family: "montserrat", sans-serif;
+}
+
+#sobre {
+    font-family: "montserrat", sans-serif;
+}
+#slogan {
+    margin-top: -1%;
+    font-family: "montserrat", sans-serif;
+}

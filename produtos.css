@@ -1,0 +1,131 @@
+body {
+    background-color: #919191;
+}
+
+em {
+    color: red;
+}
+.titulo {
+    font-family: "poppins", sans-serif;
+}
+h1 {
+    text-align: center;
+}
+
+#banner {
+    width: 100%;
+    border-radius: 35px;
+}
+
+#barba{
+    list-style-type: none;
+    font-size: 15px;
+    width:25%;
+    margin-left: 9%;
+    vertical-align: 65px;
+    border-radius: 35px;
+}
+
+#cabelo{
+    list-style-type: none;
+    font-size: 15px;
+    width:25%;
+    margin-top: -54px;
+    margin-left: 56%;
+    vertical-align: 65px;
+    border-radius: 35px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(58, 57, 57);
+    border-radius: 35px;
+}
+
+.rodape a{
+    display: flex;
+    align-items: center;
+}
+
+.rodape{
+    margin-left: 36%;
+    font-family: "poppins", sans-serif;
+    list-style-type: none;
+    font-size: 23px;
+    display: flex;
+    width: 100%;
+    vertical-align: 65px;
+    border-radius: 35px;
+}
+.rodape li{
+    display: inline;
+    margin-right: 2%;
+}
+.rodape a {
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.rodape a:hover{
+    transform: translateY(-5px);
+    color: red;
+}
+
+.imgBarba {
+    margin-left: 8%;
+    width: 350px;
+    height: 350px;
+    border-radius: 35px;
+}
+
+.imgCabelo {
+    margin-left: 8%;
+    width: 350px;
+    height: 350px;
+    border-radius: 35px;
+}
+
+.conjunto {
+    margin-top: 6%;
+    margin-left: 24%;
+    list-style-type: none;
+    width: 485px;
+    height: 485px;
+    background-color: rgb(95, 94, 94);
+    border-radius: 50%;
+}
+
+.imgBarba2 {
+    margin-top: 20%;
+    margin-left: 17%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.imgCabelo2 {
+    margin-top: 30%;
+    margin-left: 3%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+#precoConjunto {
+    margin-top: 15%;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(82, 82, 82);
+    padding: 20px;
+    border-radius: 35px;
+}
+
+header ul a{
+    color: rgb(82, 82, 82);
+    text-decoration: none;
+}
+.beneficios h2 {
+    font-family: "montserrat", sans-serif;
+}
